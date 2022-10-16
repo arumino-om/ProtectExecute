@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="PELoader.cpp" />
     <ClCompile Include="ProtectExecute.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="PELoader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
